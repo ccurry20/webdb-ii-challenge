@@ -4,10 +4,19 @@
   "description": "Node DB 2 Module Challenge",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "server": "nodemon index.js"
   },
   "author": "Lambda School",
   "devDependencies": {
     "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.2",
+    "sqlite3": "^4.1.0"
   }
 }
